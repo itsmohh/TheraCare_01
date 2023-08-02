@@ -14,6 +14,7 @@
 		64A72B6A2A7979D000F6651D /* TheraCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B692A7979D000F6651D /* TheraCareTests.swift */; };
 		64A72B742A7979D000F6651D /* TheraCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B732A7979D000F6651D /* TheraCareUITests.swift */; };
 		64A72B762A7979D000F6651D /* TheraCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */; };
+		A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		64A72B6F2A7979D000F6651D /* TheraCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheraCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A72B732A7979D000F6651D /* TheraCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareUITests.swift; sourceTree = "<group>"; };
 		64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				64A72B582A7979CE00F6651D /* TheraCareApp.swift */,
 				64A72B5A2A7979CE00F6651D /* ContentView.swift */,
+				A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */,
 				64A72B5C2A7979D000F6651D /* Assets.xcassets */,
 				64A72B5E2A7979D000F6651D /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */,
 				64A72B5B2A7979CE00F6651D /* ContentView.swift in Sources */,
 				64A72B592A7979CE00F6651D /* TheraCareApp.swift in Sources */,
 			);
