@@ -16,6 +16,8 @@
 		64A72B762A7979D000F6651D /* TheraCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */; };
 		A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */; };
 		A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EC2A81346800883B35 /* BackgroundView.swift */; };
+		64C4713D2A7AB57300765D03 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 64C4713C2A7AB57300765D03 /* README.MD */; };
+		64C4713F2A7AC44800765D03 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4713E2A7AC44800765D03 /* utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		A79A67EC2A81346800883B35 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		64C4713C2A7AB57300765D03 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		64C4713E2A7AC44800765D03 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		64A72B4C2A7979CE00F6651D = {
 			isa = PBXGroup;
 			children = (
+				64C4713C2A7AB57300765D03 /* README.MD */,
 				64A72B572A7979CE00F6651D /* TheraCare */,
 				64A72B682A7979D000F6651D /* TheraCareTests */,
 				64A72B722A7979D000F6651D /* TheraCareUITests */,
@@ -112,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				64A72B5F2A7979D000F6651D /* Preview Assets.xcassets */,
+				64C4713E2A7AC44800765D03 /* utils.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C4713D2A7AB57300765D03 /* README.MD in Resources */,
 				64A72B602A7979D000F6651D /* Preview Assets.xcassets in Resources */,
 				64A72B5D2A7979D000F6651D /* Assets.xcassets in Resources */,
 			);
@@ -264,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */,
+				64C4713F2A7AC44800765D03 /* utils.swift in Sources */,
 				64A72B5B2A7979CE00F6651D /* ContentView.swift in Sources */,
 				A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */,
 				64A72B592A7979CE00F6651D /* TheraCareApp.swift in Sources */,
