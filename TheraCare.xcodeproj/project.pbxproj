@@ -16,6 +16,7 @@
 		64A72B762A7979D000F6651D /* TheraCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */; };
 		64C4713D2A7AB57300765D03 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 64C4713C2A7AB57300765D03 /* README.MD */; };
 		64C4713F2A7AC44800765D03 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4713E2A7AC44800765D03 /* utils.swift */; };
+		8E8DC74C2A814DE70024EF98 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		64C4713C2A7AB57300765D03 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		64C4713E2A7AC44800765D03 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				64A72B582A7979CE00F6651D /* TheraCareApp.swift */,
 				64A72B5A2A7979CE00F6651D /* ContentView.swift */,
+				8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */,
 				64A72B5C2A7979D000F6651D /* Assets.xcassets */,
 				64A72B5E2A7979D000F6651D /* Preview Content */,
 			);
@@ -266,6 +269,7 @@
 			files = (
 				64C4713F2A7AC44800765D03 /* utils.swift in Sources */,
 				64A72B5B2A7979CE00F6651D /* ContentView.swift in Sources */,
+				8E8DC74C2A814DE70024EF98 /* ScrollSection.swift in Sources */,
 				64A72B592A7979CE00F6651D /* TheraCareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
