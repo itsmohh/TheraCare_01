@@ -14,11 +14,12 @@
 		64A72B6A2A7979D000F6651D /* TheraCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B692A7979D000F6651D /* TheraCareTests.swift */; };
 		64A72B742A7979D000F6651D /* TheraCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B732A7979D000F6651D /* TheraCareUITests.swift */; };
 		64A72B762A7979D000F6651D /* TheraCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */; };
-		A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */; };
-		A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EC2A81346800883B35 /* BackgroundView.swift */; };
 		64C4713D2A7AB57300765D03 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 64C4713C2A7AB57300765D03 /* README.MD */; };
 		64C4713F2A7AC44800765D03 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4713E2A7AC44800765D03 /* utils.swift */; };
 		8E8DC74C2A814DE70024EF98 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */; };
+		A752882C2A8409A5001708A3 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752882B2A8409A5001708A3 /* CustomTabView.swift */; };
+		A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */; };
+		A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EC2A81346800883B35 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +50,12 @@
 		64A72B6F2A7979D000F6651D /* TheraCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheraCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A72B732A7979D000F6651D /* TheraCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareUITests.swift; sourceTree = "<group>"; };
 		64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
-		A79A67EC2A81346800883B35 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		64C4713C2A7AB57300765D03 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		64C4713E2A7AC44800765D03 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		A752882B2A8409A5001708A3 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		A79A67EC2A81346800883B35 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */,
 				A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */,
 				A79A67EC2A81346800883B35 /* BackgroundView.swift */,
+				A752882B2A8409A5001708A3 /* CustomTabView.swift */,
 				64A72B5C2A7979D000F6651D /* Assets.xcassets */,
 				64A72B5E2A7979D000F6651D /* Preview Content */,
 			);
@@ -279,6 +282,7 @@
 				8E8DC74C2A814DE70024EF98 /* ScrollSection.swift in Sources */,
 				A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */,
 				64A72B592A7979CE00F6651D /* TheraCareApp.swift in Sources */,
+				A752882C2A8409A5001708A3 /* CustomTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
