@@ -11,7 +11,7 @@ import Combine
 
 final class ModelData: ObservableObject {
 
-@Published var emojis: [Emoji] = load("emojiData.json")
+@Published var emojis: [Emoji] = load("therapistData.json")
 }
 
 
@@ -31,5 +31,6 @@ do {
     return try decoder.decode(T.self, from: data)
 } catch {
     fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+    
 }
 }
