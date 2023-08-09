@@ -14,6 +14,7 @@
 		64A72B6A2A7979D000F6651D /* TheraCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B692A7979D000F6651D /* TheraCareTests.swift */; };
 		64A72B742A7979D000F6651D /* TheraCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B732A7979D000F6651D /* TheraCareUITests.swift */; };
 		64A72B762A7979D000F6651D /* TheraCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */; };
+		D726EAE82A83EB4F009D3548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		64A72B6F2A7979D000F6651D /* TheraCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheraCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A72B732A7979D000F6651D /* TheraCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareUITests.swift; sourceTree = "<group>"; };
 		64A72B752A7979D000F6651D /* TheraCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		64A72B4C2A7979CE00F6651D = {
 			isa = PBXGroup;
 			children = (
+				D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */,
 				64A72B572A7979CE00F6651D /* TheraCare */,
 				64A72B682A7979D000F6651D /* TheraCareTests */,
 				64A72B722A7979D000F6651D /* TheraCareUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D726EAE82A83EB4F009D3548 /* LaunchScreen.storyboard in Resources */,
 				64A72B602A7979D000F6651D /* Preview Assets.xcassets in Resources */,
 				64A72B5D2A7979D000F6651D /* Assets.xcassets in Resources */,
 			);
