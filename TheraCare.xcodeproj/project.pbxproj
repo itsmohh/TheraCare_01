@@ -65,8 +65,8 @@
 		A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		A79A67EC2A81346800883B35 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		C94C982F2A82B8580079DF51 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		C94C98312A83E8B30079DF51 /* therapistData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = therapistData.json; sourceTree = "<group>"; };
 		C9C4F7EF2A8292A6004E9419 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		C9C4F7F12A82938C004E9419 /* emojiData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emojiData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +128,7 @@
 				64A72B5C2A7979D000F6651D /* Assets.xcassets */,
 				64A72B5E2A7979D000F6651D /* Preview Content */,
 				C9C4F7EF2A8292A6004E9419 /* ModelData.swift */,
+				C94C98312A83E8B30079DF51 /* therapistData.json */,
 				C94C982F2A82B8580079DF51 /* Emoji.swift */,
 			);
 			path = TheraCare;
@@ -138,7 +139,6 @@
 			children = (
 				64A72B5F2A7979D000F6651D /* Preview Assets.xcassets */,
 				64C4713E2A7AC44800765D03 /* utils.swift */,
-				C9C4F7F12A82938C004E9419 /* emojiData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
