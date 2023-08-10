@@ -36,32 +36,10 @@ struct ScrollSection: View {
                     .offset(x: 20)
                     .padding(.trailing, 40)
                 }
-        VStack(alignment: .center) {
-            Text(title)
-                .font(.title)
-                .fontWeight(.semibold)
-                .foregroundColor(.black)
-                .padding(.horizontal, 20)
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 20.0) {
-                    ForEach(posters.indices, id: \.self) { index in
-                        NavigationLink {
-                            ContentView()
-                        } label: {
-                            Image(posters[index])
-                                .resizable()
-                                .frame(width: 150.0, height: 150.0)
-                                .cornerRadius(20)
-                        }
-                    }
-                }
-                .offset(x: 20)
-                .padding(.trailing, 40)
             }
         }
     }
 }
-
         struct ScrollSection_Previews: PreviewProvider {
         static var previews: some View {
         ScrollSection()
