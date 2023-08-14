@@ -11,7 +11,7 @@ import Combine
 
 final class ModelData: ObservableObject {
 
-@Published var emojis: [Emoji] = load("therapistData.json")
+@Published var emojis: [Emoji] = load("therapyData.json")
 }
 
 
