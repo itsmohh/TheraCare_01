@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644F01A92A8A83A400914F97 /* TherapyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 644F01A82A8A83A400914F97 /* TherapyData.json */; };
 		64A72B592A7979CE00F6651D /* TheraCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B582A7979CE00F6651D /* TheraCareApp.swift */; };
 		64A72B5B2A7979CE00F6651D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A72B5A2A7979CE00F6651D /* ContentView.swift */; };
 		64A72B5D2A7979D000F6651D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A72B5C2A7979D000F6651D /* Assets.xcassets */; };
@@ -18,9 +19,11 @@
 		64C4713F2A7AC44800765D03 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4713E2A7AC44800765D03 /* utils.swift */; };
 		8E8DC74C2A814DE70024EF98 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */; };
 		A752882C2A8409A5001708A3 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752882B2A8409A5001708A3 /* CustomTabView.swift */; };
+		A752882E2A8A7D1D001708A3 /* FrustratedEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752882D2A8A7D1D001708A3 /* FrustratedEmoji.swift */; };
+		A75288302A8BAD6F001708A3 /* Therapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752882F2A8BAD6F001708A3 /* Therapy.swift */; };
 		A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */; };
 		A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EC2A81346800883B35 /* BackgroundView.swift */; };
-		C94C98302A82B8580079DF51 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C982F2A82B8580079DF51 /* Emoji.swift */; };
+		A7A828362A8BAF690033DD9C /* TherapyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A828352A8BAF690033DD9C /* TherapyRow.swift */; };
 		C9C4F7F02A8292A6004E9419 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C4F7EF2A8292A6004E9419 /* ModelData.swift */; };
 		D726EAE82A83EB4F009D3548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */; };
 		D726EAEA2A8A7CC2009D3548 /* SadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D726EAE92A8A7CC2009D3548 /* SadView.swift */; };
@@ -44,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		644F01A82A8A83A400914F97 /* TherapyData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TherapyData.json; sourceTree = "<group>"; };
 		64A72B552A7979CE00F6651D /* TheraCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheraCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A72B582A7979CE00F6651D /* TheraCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheraCareApp.swift; sourceTree = "<group>"; };
 		64A72B5A2A7979CE00F6651D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,10 +62,13 @@
 		64C4713E2A7AC44800765D03 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 		A752882B2A8409A5001708A3 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		A752882D2A8A7D1D001708A3 /* FrustratedEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrustratedEmoji.swift; sourceTree = "<group>"; };
+		A752882F2A8BAD6F001708A3 /* Therapy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Therapy.swift; sourceTree = "<group>"; };
 		A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		A79A67EC2A81346800883B35 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
-		C94C982F2A82B8580079DF51 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		A7A828352A8BAF690033DD9C /* TherapyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyRow.swift; sourceTree = "<group>"; };
 		C94C98312A83E8B30079DF51 /* therapistData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = therapistData.json; sourceTree = "<group>"; };
+		C94C982F2A82B8580079DF51 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		C9C4F7EF2A8292A6004E9419 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D726EAE92A8A7CC2009D3548 /* SadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadView.swift; sourceTree = "<group>"; };
@@ -95,6 +102,7 @@
 		64A72B4C2A7979CE00F6651D = {
 			isa = PBXGroup;
 			children = (
+				A7A828352A8BAF690033DD9C /* TherapyRow.swift */,
 				D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */,
 				64C4713C2A7AB57300765D03 /* README.MD */,
 				64A72B572A7979CE00F6651D /* TheraCare */,
@@ -123,11 +131,13 @@
 				8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */,
 				A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */,
 				A79A67EC2A81346800883B35 /* BackgroundView.swift */,
+				A752882D2A8A7D1D001708A3 /* FrustratedEmoji.swift */,
 				A752882B2A8409A5001708A3 /* CustomTabView.swift */,
 				64A72B5C2A7979D000F6651D /* Assets.xcassets */,
 				64A72B5E2A7979D000F6651D /* Preview Content */,
 				C9C4F7EF2A8292A6004E9419 /* ModelData.swift */,
 				C94C98312A83E8B30079DF51 /* therapistData.json */,
+				644F01A82A8A83A400914F97 /* TherapyData.json */,
 				C94C982F2A82B8580079DF51 /* Emoji.swift */,
 			);
 			path = TheraCare;
@@ -136,6 +146,7 @@
 		64A72B5E2A7979D000F6651D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				A752882F2A8BAD6F001708A3 /* Therapy.swift */,
 				64A72B5F2A7979D000F6651D /* Preview Assets.xcassets */,
 				64C4713E2A7AC44800765D03 /* utils.swift */,
 			);
@@ -266,6 +277,7 @@
 				D726EAE82A83EB4F009D3548 /* LaunchScreen.storyboard in Resources */,
 				64C4713D2A7AB57300765D03 /* README.MD in Resources */,
 				64A72B602A7979D000F6651D /* Preview Assets.xcassets in Resources */,
+				644F01A92A8A83A400914F97 /* TherapyData.json in Resources */,
 				64A72B5D2A7979D000F6651D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,14 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A752882E2A8A7D1D001708A3 /* FrustratedEmoji.swift in Sources */,
 				A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */,
 				64C4713F2A7AC44800765D03 /* utils.swift in Sources */,
-				C94C98302A82B8580079DF51 /* Emoji.swift in Sources */,
+				A7A828362A8BAF690033DD9C /* TherapyRow.swift in Sources */,
 				64A72B5B2A7979CE00F6651D /* ContentView.swift in Sources */,
 				8E8DC74C2A814DE70024EF98 /* ScrollSection.swift in Sources */,
 				A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */,
 				64A72B592A7979CE00F6651D /* TheraCareApp.swift in Sources */,
 				D726EAEA2A8A7CC2009D3548 /* SadView.swift in Sources */,
+				A75288302A8BAD6F001708A3 /* Therapy.swift in Sources */,
 				A752882C2A8409A5001708A3 /* CustomTabView.swift in Sources */,
 				C9C4F7F02A8292A6004E9419 /* ModelData.swift in Sources */,
 			);
