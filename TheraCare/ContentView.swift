@@ -13,8 +13,7 @@ struct ContentView: View {
                {
                    ScrollSection()
                        .tag(1)
-                   
-                   Text("Tab 2")
+                   Affirmations()
                        .tag(2)
                    
                 TherapistList()
