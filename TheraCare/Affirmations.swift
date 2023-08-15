@@ -20,7 +20,7 @@ struct Affirmations: View {
                             .overlay {
                                 Capsule() .stroke (.green, lineWidth: 4)
                             }
-                        Text("You are sccessful in everything you do")
+                        Text("You are successful in everything you do")
                     }
                     ZStack {
                         Capsule()
@@ -82,26 +82,39 @@ struct Affirmations: View {
                             }
                         Text("You are competent, smart, and able")
                     }
-                    ZStack {
-                        Capsule()
-                            .frame(height: 80)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7)
-                            .overlay {
-                                Capsule() .stroke (.green, lineWidth: 4)
-                            }
-                        Text("You are growing and changing for the better")
+                   
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(.white)
+                                .shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                            Text("You have goals and dreams that you are going to achieve")
+                        }
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(.white)
+                                .shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                            Text("You can do anything you set your mind to")
+                        }
                     }
                 }
-            }
             .navigationTitle("Affirmations")
+            }
         }
     }
-}
-
-struct Affirmations_Previews: PreviewProvider {
-    static var previews: some View {
-        Affirmations()
+    
+    
+    struct Affirmations_Previews: PreviewProvider {
+        static var previews: some View {
+            Affirmations()
+        }
     }
-}
+    
 
