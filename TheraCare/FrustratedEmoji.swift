@@ -9,9 +9,10 @@ import SwiftUI
 
 struct FrustratedEmoji: View {
     var body: some View {
-        ZStack {
-            BackgroundView()
-            VStack {
+            NavigationView {
+            ZStack {
+                BackgroundView()
+                VStack {
                     Text("What caused you to feel this way?")
                         .font(.headline)
                     TextField("Answer", text: .constant(""))
@@ -49,6 +50,9 @@ struct FrustratedEmoji: View {
                         .multilineTextAlignment(.center)
                 }
             }
+            .navigationTitle("I Hear Your Frustrated...")
+            
+        }
         }
         struct FrustratedEmoji_Previews: PreviewProvider {
             static var previews: some View {

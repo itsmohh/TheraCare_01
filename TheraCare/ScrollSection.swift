@@ -11,6 +11,7 @@ struct ScrollSection: View {
     @State var title: String = "How are you feeling?"
     @State var posters: [String] = ["poster1", "poster2", "poster3"]
     var body: some View {
+              ZStack{
         NavigationView{
             ZStack{
                 BackgroundView()
@@ -23,6 +24,15 @@ struct ScrollSection: View {
                         .padding(.horizontal, 20)
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 20.0) {
+                            ForEach(posters.indices, id: \.self) { index in
+                                NavigationLink {
+                                    ContentView()
+                                } label: {
+                                    Image(posters[index])
+                                        .resizable()
+                                        .frame(width: 150.0, height: 150.0)
+                                        .cornerRadius(20)
+                                }
                             
                             NavigationLink {
                                 HappyView()
@@ -52,16 +62,19 @@ struct ScrollSection: View {
                                 
                             }
                         }
+                        .offset(x: 20)
+                        .padding(.trailing, 40)
                     }
-                    .offset(x: 20)
-                    .padding(.trailing, 40)
                 }
             }
         }
         }
     }
+    struct ScrollSection_Previews: PreviewProvider {
         struct ScrollSection_Previews: PreviewProvider {
         static var previews: some View {
-        ScrollSection()
+            ScrollSection()
         }
-        }
+    }
+
+
