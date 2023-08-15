@@ -19,6 +19,7 @@ struct TherapistList: View {
                             .font(.headline)
                             .fontWeight(.medium)
                             .padding(.leading, 20.0)
+                            .foregroundColor(.black)
                         ScrollView(.horizontal) {
                             HStack {
                                 NavigationLink(destination:   TherapistDetail(therapy: therapists[0])

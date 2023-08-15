@@ -10,106 +10,133 @@ import SwiftUI
 struct Affirmations: View {
     var body: some View {
         NavigationView {
-            ScrollView{
-                VStack {
-                    ZStack {
-                        Capsule()
-                            .frame(height: 80)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7)
-                            .overlay {
-                                Capsule() .stroke (.green, lineWidth: 4)
-                            }
-                        Text("You are successful in everything you do")
-                    }
-                    ZStack {
-                        Capsule()
-                            .frame(height: 80)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7)
-                            .overlay {
-                                Capsule() .stroke (.green, lineWidth: 4)
-                            }
-                        Text("There are no limits to what you can achieve")
-                    }
-                    ZStack {
-                        Capsule()
-                            .frame(height: 80)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7)
-                            .overlay {
-                                Capsule() .stroke (.green, lineWidth: 4)
-                            }
-                        Text("You are confident in your abilities")
-                    }
-                    ZStack {
-                        Capsule()
-                            .frame(height: 80)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7)
-                            .overlay {
-                                Capsule() .stroke (.green, lineWidth: 4)
-                            }
-                        Text("You are not alone in this")
-                    }
-                    ZStack {
-                        Capsule()
-                            .frame(height: 80)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7)
-                            .overlay {
-                                Capsule() .stroke (.green, lineWidth: 4)
-                            }
-                        Text("You are more than enough")
-                    }
-                    ZStack {
-                        Capsule()
-                            .frame(height: 80)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7)
-                            .overlay {
-                                Capsule() .stroke (.green, lineWidth: 4)
-                            }
-                        Text("You deserve everything you want in life")
-                    }
-                    ZStack {
-                        Capsule()
-                            .frame(height: 80)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7)
-                            .overlay {
-                                Capsule() .stroke (.green, lineWidth: 4)
-                            }
-                        Text("You are competent, smart, and able")
-                    }
-                   
+            ZStack {
+                BackgroundView()
+                ScrollView{
+                    VStack {
                         ZStack {
                             Capsule()
                                 .frame(height: 80)
-                                .foregroundColor(.white)
+                                .foregroundColor(Color("sagegreen"))
                                 .shadow(radius: 7)
                                 .overlay {
                                     Capsule() .stroke (.green, lineWidth: 4)
                                 }
-                            Text("You have goals and dreams that you are going to achieve")
+                                .padding(.horizontal)
+                            Text("You are successful in everything you do")
+                                .foregroundColor(.black)
                         }
                         ZStack {
                             Capsule()
                                 .frame(height: 80)
-                                .foregroundColor(.white)
+                                .foregroundColor(Color("sagegreen"))
                                 .shadow(radius: 7)
                                 .overlay {
                                     Capsule() .stroke (.green, lineWidth: 4)
                                 }
+                                .padding(.horizontal);                        Text("There are no limits to what you can achieve")
+                                .foregroundColor(.black)
+
+                        }
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(Color("sagegreen"))
+                                .shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                                .padding(.horizontal)
+                            Text("You are confident in your abilities")
+                                .foregroundColor(.black)
+
+                        }
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(Color("sagegreen")).shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                                .padding(.horizontal)
+                            Text("You are not alone in this")
+                                .foregroundColor(.black)
+
+                        }
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(Color("sagegreen"))
+                                .shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                                .padding(.horizontal)
+                            Text("You are more than enough")
+                                .foregroundColor(.black)
+
+                        }
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(Color("sagegreen"))
+                                .shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                                .padding(.horizontal)
+                            Text("You deserve everything you want in life")
+                                .foregroundColor(.black)
+
+                        }
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(Color("sagegreen"))
+                                .shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                                .padding(.horizontal)
+                            Text("You are competent, smart, and able")
+                                .foregroundColor(.black)
+
+                        }
+                        
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(Color("sagegreen"))
+                                .shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                                .padding(.horizontal)
+                            Text("You have goals and dreams that you are going to achieve")
+                                .foregroundColor(.black)
+                                .padding(.horizontal, 40.0)
+                        }
+                        ZStack {
+                            Capsule()
+                                .frame(height: 80)
+                                .foregroundColor(Color("sagegreen"))
+                                .shadow(radius: 7)
+                                .overlay {
+                                    Capsule() .stroke (.green, lineWidth: 4)
+                                }
+                                .padding(.horizontal)
                             Text("You can do anything you set your mind to")
+                                .foregroundColor(.black)
+
                         }
                     }
                 }
-            .navigationTitle("Affirmations")
+                .navigationTitle("Affirmations")
+                .foregroundColor(.black)
             }
         }
     }
-    
+}
     
     struct Affirmations_Previews: PreviewProvider {
         static var previews: some View {

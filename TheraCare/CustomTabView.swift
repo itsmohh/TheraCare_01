@@ -13,7 +13,7 @@ struct CustomTabView: View {
     
     let tabBarItems: [(image: String, title: String)] = [
         ("home", "Home"),
-        ("journal", "Journal"),
+        ("journal", "Affirmations"),
         ("search", "Search")
     ]
     var body: some View {

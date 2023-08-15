@@ -16,18 +16,22 @@ struct TherapistDetail: View {
                 ScrollView {
                     CircleImage(image: therapy.image)
                         .offset(y: 200)
-                        .padding(.bottom, 200)
+                        .padding(.vertical, 200)
+                        .padding(.top, -400)
                     
                     
                     VStack(alignment: .leading) {
                         Text(therapy.name)
                             .font(.title)
+                            .foregroundColor(.black)
                         
                         
                         HStack {
                             Text(therapy.phoneNumber)
+                                .foregroundColor(.black)
                             Spacer()
                             Text(therapy.location)
+                                .foregroundColor(.black)
                         }
                         .font(.subheadline)
                         .foregroundColor(.secondary)
@@ -37,12 +41,15 @@ struct TherapistDetail: View {
                         
                         
                         Text("About \(therapy.name)")
+                            .foregroundColor(.black)
                             .font(.title2)
                         Text(therapy.description)
+                            .foregroundColor(.black)
                     }
                     .padding()
                 }
                 .navigationTitle(therapy.name)
+                .foregroundColor(.black)
                 .navigationBarTitleDisplayMode(.inline)
             }
         }
