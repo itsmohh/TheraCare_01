@@ -18,6 +18,7 @@
 		64C4713F2A7AC44800765D03 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4713E2A7AC44800765D03 /* utils.swift */; };
 		8E8DC74C2A814DE70024EF98 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */; };
 		A752882C2A8409A5001708A3 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752882B2A8409A5001708A3 /* CustomTabView.swift */; };
+		A75FE5F92A8BCDED008F8C3A /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75FE5F82A8BCDED008F8C3A /* Affirmations.swift */; };
 		A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */; };
 		A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EC2A81346800883B35 /* BackgroundView.swift */; };
 		C94C98302A82B8580079DF51 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C982F2A82B8580079DF51 /* Emoji.swift */; };
@@ -57,6 +58,7 @@
 		64C4713E2A7AC44800765D03 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 		A752882B2A8409A5001708A3 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		A75FE5F82A8BCDED008F8C3A /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
 		A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		A79A67EC2A81346800883B35 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		C94C982F2A82B8580079DF51 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */,
 				A79A67EC2A81346800883B35 /* BackgroundView.swift */,
 				A752882B2A8409A5001708A3 /* CustomTabView.swift */,
+				A75FE5F82A8BCDED008F8C3A /* Affirmations.swift */,
 				64A72B5C2A7979D000F6651D /* Assets.xcassets */,
 				64A72B5E2A7979D000F6651D /* Preview Content */,
 				C9C4F7EF2A8292A6004E9419 /* ModelData.swift */,
@@ -296,6 +299,7 @@
 				A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */,
 				64A72B592A7979CE00F6651D /* TheraCareApp.swift in Sources */,
 				A752882C2A8409A5001708A3 /* CustomTabView.swift in Sources */,
+				A75FE5F92A8BCDED008F8C3A /* Affirmations.swift in Sources */,
 				C9C4F7F02A8292A6004E9419 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
