@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ScrollSection: View {
     @State var title: String = "How are you feeling?"
-    @State var posters: [String] = ["poster1", "poster2", "poster3", "poster4", "poster5"]
+    @State var posters: [String] = ["poster1", "poster2", "poster3"]
     var body: some View {
               ZStack{
+        NavigationView{
+            ZStack{
                 BackgroundView()
                 
                 VStack(alignment: .center) {
@@ -31,6 +33,33 @@ struct ScrollSection: View {
                                         .frame(width: 150.0, height: 150.0)
                                         .cornerRadius(20)
                                 }
+                            
+                            NavigationLink {
+                                HappyView()
+                            } label: {
+                                Image("poster1")
+                                    .resizable()
+                                    .frame(width: 150.0, height: 150.0)
+                                    .cornerRadius(20)
+                                
+                            }
+                            NavigationLink {
+                                SadView()
+                            } label: {
+                                Image("poster2")
+                                    .resizable()
+                                    .frame(width: 150.0, height: 150.0)
+                                    .cornerRadius(20)
+                                
+                            }
+                            NavigationLink {
+                                FrustratedEmoji ()
+                            } label: {
+                                Image("poster3")
+                                    .resizable()
+                                    .frame(width: 150.0, height: 150.0)
+                                    .cornerRadius(20)
+                                
                             }
                         }
                         .offset(x: 20)
@@ -39,8 +68,10 @@ struct ScrollSection: View {
                 }
             }
         }
+        }
     }
     struct ScrollSection_Previews: PreviewProvider {
+        struct ScrollSection_Previews: PreviewProvider {
         static var previews: some View {
             ScrollSection()
         }

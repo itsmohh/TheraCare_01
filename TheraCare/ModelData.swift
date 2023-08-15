@@ -9,11 +9,8 @@ import Foundation
 import Foundation
 import Combine
 
-final class ModelData: ObservableObject {
 
-@Published var therapists: [Therapy] = load("therapistData.json")
-}
-
+var therapists: [Therapy] = load("TherapyData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
 let data: Data

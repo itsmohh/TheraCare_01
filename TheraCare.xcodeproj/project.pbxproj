@@ -26,6 +26,10 @@
 		A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79A67EC2A81346800883B35 /* BackgroundView.swift */; };
 		A7A828362A8BAF690033DD9C /* TherapyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A828352A8BAF690033DD9C /* TherapyRow.swift */; };
 		C9C4F7F02A8292A6004E9419 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C4F7EF2A8292A6004E9419 /* ModelData.swift */; };
+		D418C8482A8BC2E100AA759C /* TherapistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D418C8472A8BC2E100AA759C /* TherapistRow.swift */; };
+		D418C84A2A8BC9DA00AA759C /* TherapistList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D418C8492A8BC9DA00AA759C /* TherapistList.swift */; };
+		D418C84C2A8BCE5600AA759C /* TherapistDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D418C84B2A8BCE5600AA759C /* TherapistDetail.swift */; };
+		D418C84E2A8BCF9200AA759C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D418C84D2A8BCF9200AA759C /* CircleImage.swift */; };
 		D726EAE82A83EB4F009D3548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */; };
 		D726EAEA2A8A7CC2009D3548 /* SadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D726EAE92A8A7CC2009D3548 /* SadView.swift */; };
 /* End PBXBuildFile section */
@@ -70,6 +74,10 @@
 		A79A67EC2A81346800883B35 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		A7A828352A8BAF690033DD9C /* TherapyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyRow.swift; sourceTree = "<group>"; };
 		C9C4F7EF2A8292A6004E9419 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D418C8472A8BC2E100AA759C /* TherapistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapistRow.swift; sourceTree = "<group>"; };
+		D418C8492A8BC9DA00AA759C /* TherapistList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapistList.swift; sourceTree = "<group>"; };
+		D418C84B2A8BCE5600AA759C /* TherapistDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapistDetail.swift; sourceTree = "<group>"; };
+		D418C84D2A8BCF9200AA759C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D726EAE92A8A7CC2009D3548 /* SadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +140,10 @@
 				8E8DC74B2A814DE70024EF98 /* ScrollSection.swift */,
 				A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */,
 				A79A67EC2A81346800883B35 /* BackgroundView.swift */,
+				D418C8472A8BC2E100AA759C /* TherapistRow.swift */,
+				D418C8492A8BC9DA00AA759C /* TherapistList.swift */,
+				D418C84B2A8BCE5600AA759C /* TherapistDetail.swift */,
+				D418C84D2A8BCF9200AA759C /* CircleImage.swift */,
 				A752882D2A8A7D1D001708A3 /* FrustratedEmoji.swift */,
 				A752882B2A8409A5001708A3 /* CustomTabView.swift */,
 				64A72B5C2A7979D000F6651D /* Assets.xcassets */,
@@ -303,16 +315,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A752882E2A8A7D1D001708A3 /* FrustratedEmoji.swift in Sources */,
+				D418C8482A8BC2E100AA759C /* TherapistRow.swift in Sources */,
 				A79A67EB2A7ACA0000883B35 /* CircleBackground.swift in Sources */,
 				64C4713F2A7AC44800765D03 /* utils.swift in Sources */,
 				A7A828362A8BAF690033DD9C /* TherapyRow.swift in Sources */,
 				64A72B5B2A7979CE00F6651D /* ContentView.swift in Sources */,
 				8E8DC74C2A814DE70024EF98 /* ScrollSection.swift in Sources */,
+				D418C84C2A8BCE5600AA759C /* TherapistDetail.swift in Sources */,
 				A79A67ED2A81346800883B35 /* BackgroundView.swift in Sources */,
 				64A72B592A7979CE00F6651D /* TheraCareApp.swift in Sources */,
 				D726EAEA2A8A7CC2009D3548 /* SadView.swift in Sources */,
+				D418C84A2A8BC9DA00AA759C /* TherapistList.swift in Sources */,
 				A75288302A8BAD6F001708A3 /* Therapy.swift in Sources */,
 				A752882C2A8409A5001708A3 /* CustomTabView.swift in Sources */,
+				D418C84E2A8BCF9200AA759C /* CircleImage.swift in Sources */,
 				C9C4F7F02A8292A6004E9419 /* ModelData.swift in Sources */,
 				8EDE1F662A8A7BE70039014A /* HappyView.swift in Sources */,
 			);

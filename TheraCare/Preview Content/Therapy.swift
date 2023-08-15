@@ -14,6 +14,7 @@ struct Therapy: Hashable, Codable, Identifiable {
    var location: String
    var phoneNumber: String
    var description: String
+    var Hour: String
 
 
    private var imageName: String

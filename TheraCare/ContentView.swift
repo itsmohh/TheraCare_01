@@ -17,7 +17,7 @@ struct ContentView: View {
                    Text("Tab 2")
                        .tag(2)
                    
-                Text("Tab 3")
+                TherapistList()
                        .tag(3)
                    
                    
