@@ -69,8 +69,6 @@
 		A79A67EA2A7ACA0000883B35 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		A79A67EC2A81346800883B35 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		A7A828352A8BAF690033DD9C /* TherapyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyRow.swift; sourceTree = "<group>"; };
-		C94C98312A83E8B30079DF51 /* therapistData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = therapistData.json; sourceTree = "<group>"; };
-		C94C982F2A82B8580079DF51 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		C9C4F7EF2A8292A6004E9419 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		D726EAE72A83EB4F009D3548 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D726EAE92A8A7CC2009D3548 /* SadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadView.swift; sourceTree = "<group>"; };
@@ -139,9 +137,7 @@
 				64A72B5C2A7979D000F6651D /* Assets.xcassets */,
 				64A72B5E2A7979D000F6651D /* Preview Content */,
 				C9C4F7EF2A8292A6004E9419 /* ModelData.swift */,
-				C94C98312A83E8B30079DF51 /* therapistData.json */,
 				644F01A82A8A83A400914F97 /* TherapyData.json */,
-				C94C982F2A82B8580079DF51 /* Emoji.swift */,
 			);
 			path = TheraCare;
 			sourceTree = "<group>";
