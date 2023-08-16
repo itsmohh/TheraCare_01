@@ -13,13 +13,14 @@ struct TherapistRow: View {
         VStack(alignment: .leading) {
             therapy.image
                 .resizable()
-            .frame(width: 210.0, height: 200.0)
+            .frame(width: 170
+                   , height: 160)
             .cornerRadius(20)
             Text(therapy.name)
-                .font(.title)
-                .font(.largeTitle)
+                .font(.title3)
                 .fontWeight(.medium)
                 .foregroundColor(Color.white)
+            
             
             HStack(spacing: 2) {
                        ForEach(0 ..< 5) {item in
