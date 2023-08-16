@@ -51,7 +51,7 @@ struct CustomTabView: View {
                                             .offset(y: 3)
                                     }
                                 }
-                                .foregroundColor(index + 1 == tabSelection ? .blue : .black)
+                                .foregroundColor(index + 1 == tabSelection ? .white : .black)
                             }
                         }
                     }
