@@ -11,8 +11,8 @@ struct ScrollSection: View {
     @State var title: String = "How are you feeling?"
     @State var posters: [String] = ["poster1", "poster2", "poster3"]
     var body: some View {
-        ZStack{
-            NavigationView{
+        NavigationView {
+            ZStack{
                 ZStack{
                     BackgroundView()
                     
@@ -59,7 +59,7 @@ struct ScrollSection: View {
                     }
                 }
             }
-        }
+            }.navigationBarBackButtonHidden(true)
         }
     }
         struct ScrollSection_Previews: PreviewProvider {
