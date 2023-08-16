@@ -14,6 +14,7 @@ struct FrustratedEmoji: View {
     @State var numInput3: String = ""
     @State var numInput4: String = ""
     var body: some View {
+        NavigationView{
             ZStack {
                 BackgroundView()
                 ScrollView{
@@ -25,13 +26,13 @@ struct FrustratedEmoji: View {
                         Text("What caused you to feel this way?")
                             .foregroundColor(.black)
                             .font(.headline)
-                           
+                        
                         TextField("Answer", text:$numInput)
                             .font(.headline)
                             .padding()
                             .foregroundColor(.black)
                             .multilineTextAlignment(.center)
-                          
+                        
                         Text("Do you want to talk about it?")
                             .foregroundColor(.black)
                             .font(.headline)
@@ -66,22 +67,22 @@ struct FrustratedEmoji: View {
                             .multilineTextAlignment(.center)
                     }
                     NavigationLink(destination: ScrollSection()) {
-                                           Text("Save")
-                                               .padding(.all, 4.0).frame(minWidth: 0, maxWidth: .infinity)
-                                               .padding()
-                                               .foregroundColor(.black)
-                                               .background(LinearGradient(gradient: Gradient(colors: [Color(.green), Color(.yellow)]), startPoint: .leading, endPoint: .trailing))
-                                               .cornerRadius(40)
-                                       }
+                        Text("Save")
+                            .padding(.all, 4.0).frame(minWidth: 0, maxWidth: .infinity)
+                            .padding()
+                            .foregroundColor(.black)
+                            .background(LinearGradient(gradient: Gradient(colors: [Color(.green), Color(.yellow)]), startPoint: .leading, endPoint: .trailing))
+                            .cornerRadius(40)
+                    }
                 }
-                .navigationTitle("I Hear Your Frustrated...")                .foregroundColor(.black)
-                .padding(40)
+                
             }
-        }
+        }.navigationBarBackButtonHidden(true)
+    }
+}
         struct FrustratedEmoji_Previews: PreviewProvider {
             static var previews: some View {
                 FrustratedEmoji()
             }
         }
-    }
 
