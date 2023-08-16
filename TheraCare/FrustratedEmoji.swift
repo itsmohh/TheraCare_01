@@ -14,19 +14,24 @@ struct FrustratedEmoji: View {
     @State var numInput3: String = ""
     @State var numInput4: String = ""
     var body: some View {
-        NavigationView {
             ZStack {
                 BackgroundView()
                 ScrollView{
+                    VStack{
+                        Text("**I Hear Your Frustration...**")}
+                    .font(.system(size: 36))
+                    .padding()
                     VStack {
                         Text("What caused you to feel this way?")
                             .foregroundColor(.black)
                             .font(.headline)
+                           
                         TextField("Answer", text:$numInput)
                             .font(.headline)
                             .padding()
                             .foregroundColor(.black)
                             .multilineTextAlignment(.center)
+                          
                         Text("Do you want to talk about it?")
                             .foregroundColor(.black)
                             .font(.headline)
@@ -60,11 +65,18 @@ struct FrustratedEmoji: View {
                             .foregroundColor(.black)
                             .multilineTextAlignment(.center)
                     }
+                    NavigationLink(destination: ScrollSection()) {
+                                           Text("Save")
+                                               .padding(.all, 4.0).frame(minWidth: 0, maxWidth: .infinity)
+                                               .padding()
+                                               .foregroundColor(.black)
+                                               .background(LinearGradient(gradient: Gradient(colors: [Color(.green), Color(.yellow)]), startPoint: .leading, endPoint: .trailing))
+                                               .cornerRadius(40)
+                                       }
                 }
                 .navigationTitle("I Hear Your Frustrated...")                .foregroundColor(.black)
                 .padding(40)
             }
-        }
         }
         struct FrustratedEmoji_Previews: PreviewProvider {
             static var previews: some View {
