@@ -15,7 +15,7 @@ var body: some View {
            .blur(radius: animate ? 30 : 100)
             .offset(x: animate ? -50 : -130, y: animate ? 30 : -100)
                .task{
-               withAnimation(.easeInOut(duration: 7).repeatForever()) {
+                   withAnimation(.easeInOut(duration: 2.5).repeatForever()) {
                animate.toggle()
 }
 }

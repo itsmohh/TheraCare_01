@@ -8,42 +8,55 @@
 import SwiftUI
 
 struct HappyView: View {
+    @State var numInput: String = ""
+    @State var numInput1: String = ""
+    @State var numInput2: String = ""
+    @State var numInput3: String = ""
+    @State var numInput4: String = ""
     var body: some View {
-            NavigationView {
-            ZStack {
-                BackgroundView()
-                VStack {
-                    Text("What Made You Smile Today?")
-                    TextField("Type Here", text: .constant(""))
-                        .padding()
-                        .foregroundColor(.black)
-                        .multilineTextAlignment(.center)
-                    Text("What Are You Grateful For Today?")
-                    TextField("Type Here ", text: .constant(""))
-                        .padding()
-                        .foregroundColor(.black)
-                        .multilineTextAlignment(.center)
-                    Text("What Is Your Goal For Today? ")
-                    TextField("Type Here", text: .constant(""))
-                        .padding()
-                        .foregroundColor(.black)
-                        .multilineTextAlignment(.center)
-                    Text("What Are You Saying  Yes To In Your Life   Right Now? ")
-                        .multilineTextAlignment(.center)
-                    TextField("Type Here", text: .constant(""))
-                        .padding()
-                        .foregroundColor(.black)
-                        .multilineTextAlignment(.center)
-                    Text("What Are Some Recent Postive Chnges In Your Life ? ")
-                        .multilineTextAlignment(.center)
-                    TextField("Type Here", text: .constant(""))
-                        .padding()
-                        .foregroundColor(.black)
-                        .multilineTextAlignment(.center)
-                    
+        NavigationView {
+                ZStack {
+                    BackgroundView()
+                    ScrollView {
+                    VStack {
+                        Text("What Made You Smile Today?")
+                            .foregroundColor(.black)
+                        TextField("Type Here", text: $numInput)
+                            .padding()
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.center)
+                        Text("What Are You Grateful For Today?")
+                            .foregroundColor(.black)
+                        TextField("Type Here ", text:$numInput1)
+                            .padding()
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.center)
+                        Text("What Is Your Goal For Today? ")
+                            .foregroundColor(.black)
+                        TextField("Type Here", text:$numInput2)
+                            .padding()
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.center)
+                        Text("What Are You Saying  Yes To In Your Life   Right Now? ")
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.center)
+                        TextField("Type Here", text:$numInput3)
+                            .padding()
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.center)
+                        Text("What Are Some Recent Postive Chnges In Your Life ? ")
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.center)
+                        TextField("Type Here", text:$numInput4)
+                            .padding()
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.center)
+                        
+                    }
                 }
+                .navigationTitle("I Glad You're Happy...")                .foregroundColor(.black)
+                .padding(40)
             }
-                 .navigationTitle("I Glad You're Happy...")
         }
     }
       struct HappyView_Previews: PreviewProvider {
