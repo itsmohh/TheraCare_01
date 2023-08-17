@@ -45,16 +45,16 @@ struct TherapistList: View {
                             .foregroundColor(.black)
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
-                                NavigationLink(destination:   TherapistDetail(therapy: therapists[2])
-                                               , label: { TherapistRow(therapy: therapists[2])})
-                                NavigationLink(destination:   TherapistDetail(therapy: therapists[3])
-                                               , label: { TherapistRow(therapy: therapists[3])})
-                                NavigationLink(destination:   TherapistDetail(therapy: therapists[4])
-                                               , label: { TherapistRow(therapy: therapists[4])})
-                                NavigationLink(destination:   TherapistDetail(therapy: therapists[0])
-                                               , label: { TherapistRow(therapy: therapists[0])})
-                                NavigationLink(destination:   TherapistDetail(therapy: therapists[1])
-                                               , label: { TherapistRow(therapy: therapists[1])})
+                                NavigationLink(destination:   TherapistDetail(therapy: therapists[7])
+                                               , label: { TherapistRow(therapy: therapists[7])})
+                                NavigationLink(destination:   TherapistDetail(therapy: therapists[8])
+                                               , label: { TherapistRow(therapy: therapists[8])})
+                                NavigationLink(destination:   TherapistDetail(therapy: therapists[9])
+                                               , label: { TherapistRow(therapy: therapists[9])})
+                                NavigationLink(destination:   TherapistDetail(therapy: therapists[5])
+                                               , label: { TherapistRow(therapy: therapists[5])})
+                                NavigationLink(destination:   TherapistDetail(therapy: therapists[6])
+                                               , label: { TherapistRow(therapy: therapists[6])})
                             }
                             .padding(.leading)
                         }
