@@ -21,7 +21,7 @@ struct TherapistList: View {
                             .padding(.leading, 20.0)
                             .padding(.top, 50.0)
                             .foregroundColor(.black)
-                        ScrollView(.horizontal) {
+                        ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 NavigationLink(destination:   TherapistDetail(therapy: therapists[0])
                                                , label: { TherapistRow(therapy: therapists[0])})
@@ -43,7 +43,7 @@ struct TherapistList: View {
                             .fontWeight(.medium)
                             .padding(20.0)
                             .foregroundColor(.black)
-                        ScrollView(.horizontal) {
+                        ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 NavigationLink(destination:   TherapistDetail(therapy: therapists[2])
                                                , label: { TherapistRow(therapy: therapists[2])})

@@ -73,6 +73,7 @@ struct FrustratedEmoji: View {
                             .foregroundColor(.black)
                             .background(LinearGradient(gradient: Gradient(colors: [Color(.green), Color(.yellow)]), startPoint: .leading, endPoint: .trailing))
                             .cornerRadius(40)
+                            .padding()
                     }
                 }
                 
