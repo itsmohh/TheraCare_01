@@ -62,7 +62,6 @@ struct TherapistList: View {
                 }
             }
             .navigationTitle("Therapists")
-            .foregroundColor(.black)
         }
     }
 }

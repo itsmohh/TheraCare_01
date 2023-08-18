@@ -7,6 +7,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+            UINavigationBar.appearance().titleTextAttributes = [
+                .foregroundColor: UIColor.black
+            ]
+        }
     @State private var tabSelection = (1)
     var body: some View {
         NavigationView {

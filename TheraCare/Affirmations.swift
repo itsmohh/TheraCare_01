@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct Affirmations: View {
     var body: some View {
         NavigationView {
@@ -132,7 +131,6 @@ struct Affirmations: View {
                     }
                 }
                 .navigationTitle("Affirmations")
-                .foregroundColor(.black)
             }
         }
     }

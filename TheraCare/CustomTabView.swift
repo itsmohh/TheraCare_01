@@ -19,11 +19,13 @@ struct CustomTabView: View {
     var body: some View {
         ZStack {
             Capsule()
-                .frame(height: 80)
+                .frame(height: 60)
                 .foregroundColor(.green)
                 .shadow(radius: 2)
                 .overlay {
-                    Capsule() .stroke (.yellow, lineWidth: 4)
+                    Capsule()
+                        .stroke (.yellow, lineWidth: 4)
+                        .frame(height: 65)
                     
                     HStack {
                         ForEach(0..<3) {index in

@@ -48,9 +48,7 @@ struct TherapistDetail: View {
                     }
                     .padding()
                 }
-                .navigationTitle(therapy.name)
-                .foregroundColor(.black)
-                .navigationBarTitleDisplayMode(.inline)
+                .navigationTitle(therapy.name)                .navigationBarTitleDisplayMode(.inline)
             }
         }
     }
